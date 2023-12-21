@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <div class="button">
+        <label>Qual seu nome?<br>
+            <input type="text" id="digaMeuNome" />
+        </label><br>
+        <button onclick="digaMeuNome()">Olá</button>
+    </div>
+    <div class="button">
+        <label>Escolha um número<br>
+            <input type="number" min="1" id="numero"/>
+        </label> <br>
+        <button onclick="dobrarNumero()">Dobrar</button>
+        <button onclick="numeroAoQuadrado()">Quadrado</button>
+    </div>
+    <div class="button">
+        <label>Média de três números <br>
+            <input type="number" min="1" id="num1Media" /><br>
+            <input type="number" min="1" id="num2Media" /><br>
+            <input type="number" min="1" id="num3Media" />
+        </label><br>
+        <button onclick="mostraMediaTresNumeros()">Média</button>
+        <button onclick="comparaDoisNumerosCosoleMaior()">Qual o maior?</button>
+    </div>
+    <div class="button">
+        <label>IMC</label><br>
+            <input type="number" min="1" id="altura" placeholder="Altura em metros"><br>
+            <input type="number" min="1" id="peso" placeholder="Peso em quilogramas"><br>
+        </label>
+        <button onclick="calcularIMC()">Calcular IMC</button>
+        <p id="respostaIMC"></p>
+    </div>
+    <div class="button">
+        <label>Fatorial<br>
+            <input type="number" min="1" max="10" id="numeroFatorado" placeholder="Escolha um número entre 1 e 10" /><br>
+        </label>
+        <button onclick="fatorial()">Fatorar</button>
+        <p id="respostaFatorial"></p>
+    </div>
+    <div class="button">
+        <label>Tabuada<br>
+            <input type="number" min="1" max="10" id="numeroTabuada" placeholder="Escolha um número entre 1 e 10" /><br>
+        </label>
+        <button onclick="tabuada()">Taubuada</button>
+        <p id="tabuada1"></p>
+        <p id="tabuada2"></p>
+        <p id="tabuada3"></p>
+        <p id="tabuada4"></p>
+        <p id="tabuada5"></p>
+        <p id="tabuada6"></p>
+        <p id="tabuada7"></p>
+        <p id="tabuada8"></p>
+        <p id="tabuada9"></p>
+        <p id="tabuada10"></p>
+    </div>
+    
+</body>
+<script src='app.js'></script>
+</html>
