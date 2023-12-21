@@ -80,13 +80,3 @@ function tabuada() {
     }
 }
 
-let listaGenérica = [];
-let listaLinguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Pyton'];
-
-listaLinguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
-console.log(listaLinguagensDeProgramacao);
-
-listaGenérica.push('Tico', 'Fla', 'Gui');
-console.log(listaGenérica[0]);
-console.log(listaGenérica[1]);
-console.log(listaGenérica[listaGenérica.length-1]);
